@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float b1, h, area,a, b, c, per;
+    cout<<"Enter Base length of Triangle: ";
+    cin>>b1;
+    cout<<"Enter Height length of Triangle: ";
+    cin>>h;
+    cout<<"Enter Length of First Side: ";
+    cin>>a;
+    cout<<"Enter Length of Second Side: ";
+    cin>>b;
+    cout<<"Enter Length of Third Side: ";
+    cin>>c;
+    area = 0.5*b1*h;
+    per = a+b+c;
+    cout<<"\nPerimeter = "<<per;
+    cout<<"\nArea = "<<area;
+    cout<<endl;
+    return 0;
+}
